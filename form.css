@@ -1,0 +1,81 @@
+*{
+    padding: 0%;
+    margin: 0%;
+
+}
+body{
+    background-image: url("forest.jpg");
+    background-size: cover;
+}
+.whole{
+    position: absolute;
+    text-align: center;
+    height: 400px;
+    width: 290px;
+    background: rgb(0,0,0,0.5);
+    border-radius: 30px;
+    margin-top: 15%;
+    margin-left: 40%;
+    box-shadow: 0,70px,0,0,coral;
+}
+h1{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    top: 10px;
+}
+input{
+    width: 190px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.whole button{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+    left: 1px;
+}
+button:hover{
+    background-color: aqua;
+    transform: scale(1.2);
+}
+.whole a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(193, 196, 198);
+    margin-top: 10px;
+    text-decoration: none;
+    width: 100px;
+    height: 30px;
+
+}
+.whole a:hover{
+    color: brown;
+    transform: scale(1.2);
+}
+.whole p{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: beige;
+}
+.shit{
+   margin-top: 77px; 
+}
+.shit a{
+    
+    justify-content: space-between;
+    background: black transparent;
+    color: #ef0454;
+    padding: 5px;
+    border-radius: 20px;
+    height: 35px;
+    width: 70px;
+    font-size: 1.2rem;
+    transition: all
+}
+.shit:hover{
+    background: var(--bg-color);
+}
+
+
